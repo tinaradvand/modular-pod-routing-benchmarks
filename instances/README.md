@@ -1,10 +1,10 @@
 # Graph Instances
 
-Each CSV combines the trip records stored in the matching numbered folder in the local `Graphs` archive. Solver logs and experimental output files are not included.
+Each CSV contains the trip records used to construct one graph instance for the modular pod-routing experiments. Solver logs and experimental output files are not included.
 
 ## File names
 
-`instance_NNN.csv` corresponds directly to `Graphs/NNN/Trips/`. For example, `instance_001.csv` comes from `Graphs/1/Trips/`, and `instance_134.csv` comes from `Graphs/134/Trips/`.
+`NNN` is the three-digit instance identifier assigned when the instances were created. For example, `instance_001.csv` is instance 1 and `instance_134.csv` is instance 134. Leading zeros keep the files in numerical order.
 
 Instances 1–108 are route-level instances arranged in groups of three: `d0` is direction 0, `d1` is direction 1, and `cmb` combines both directions. Instances 109–134 are `multi` instances that cumulatively combine multiple routes. See `metadata/instance_summary.csv` for each instance's type, routes, and size.
 

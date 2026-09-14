@@ -4,7 +4,7 @@
 
 ## Columns
 
-- `instance_number`: number of the matching local `Graphs` folder.
+- `instance_number`: numerical identifier assigned to the graph instance.
 - `instance_file`: CSV file in `instances/`.
 - `type`: how routes and directions are grouped:
   - `d0`: direction 0 of one route.
