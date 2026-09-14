@@ -5,7 +5,7 @@ This repository contains the New York City MTA data and benchmark graph instance
 ## Contents
 
 - `static_gtfs_manhattan/`: static GTFS schedules, routes, trips, stops, and shapes for Manhattan.
-- `realtime_gtfs_raw/`: unprocessed vehicle observations collected from the MTA real-time feed in February 2025.
+- `realtime_gtfs_raw/`: raw real-time GTFS data collected from the MTA in February 2025.
 - `instances/`: benchmark graph instances created from the processed transit data.
 - `metadata/instance_summary.csv`: route composition and numbers of routes, trips, and stops for every instance.
 
