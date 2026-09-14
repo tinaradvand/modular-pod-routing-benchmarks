@@ -5,7 +5,7 @@
 ## Columns
 
 - `instance_number`: numerical identifier assigned to the graph instance.
-- `instance_file`: CSV file in `instances/`.
+- `instance_file`: CSV file in `pod_routing_graph_instances/`.
 - `type`: how routes and directions are grouped:
   - `d0`: direction 0 of one route.
   - `d1`: direction 1 of one route.

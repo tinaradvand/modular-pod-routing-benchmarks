@@ -6,7 +6,7 @@ Each CSV contains the trip records used to construct one graph instance for the 
 
 `NNN` is the three-digit instance identifier assigned when the instances were created. For example, `instance_001.csv` is instance 1 and `instance_134.csv` is instance 134. Leading zeros keep the files in numerical order.
 
-Instances 1–108 are route-level instances arranged in groups of three: `d0` is direction 0, `d1` is direction 1, and `cmb` combines both directions. Instances 109–134 are `multi` instances that cumulatively combine multiple routes. See `metadata/instance_summary.csv` for each instance's type, routes, and size.
+Instances 1–108 are route-level instances arranged in groups of three: `d0` is direction 0, `d1` is direction 1, and `cmb` combines both directions. Instances 109–134 are `multi` instances that cumulatively combine multiple routes. See `graph_instance_metadata/instance_summary.csv` for each instance's type, routes, and size.
 
 ## Columns
 
