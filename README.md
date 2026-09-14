@@ -4,7 +4,7 @@ This repository contains the benchmark graph instances used in the modular pod-r
 
 - `instances/`: 133 CSV graph instances.
 - `metadata/instance_summary.csv`: routes, trips, and stops in each instance.
-- `data/raw/static_gtfs_manhattan/`: Manhattan static GTFS source files.
+- `static_gtfs_manhattan/`: Manhattan static GTFS source files.
 - `*_d0` and `*_d1`: one travel direction; `*_cmb`: both directions; `*_multi`: multiple routes.
 
 Each instance records trip and stop sequences, scheduled times, estimated passenger counts, and required pods. Raw real-time observations and intermediate processed data are not included here.
