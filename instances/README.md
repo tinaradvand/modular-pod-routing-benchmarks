@@ -6,7 +6,7 @@ Each CSV combines the trip records stored in the matching numbered folder in the
 
 `instance_NNN.csv` corresponds directly to `Graphs/NNN/Trips/`. For example, `instance_001.csv` comes from `Graphs/1/Trips/`, and `instance_134.csv` comes from `Graphs/134/Trips/`.
 
-Instances 1–108 are route-level instances arranged in groups of three: direction 0, direction 1, and both directions. Instances 109–134 are cumulative multi-route instances. See `metadata/instance_summary.csv` for the routes and size of each instance.
+Instances 1–108 are route-level instances arranged in groups of three: `d0` is direction 0, `d1` is direction 1, and `cmb` combines both directions. Instances 109–134 are `multi` instances that cumulatively combine multiple routes. See `metadata/instance_summary.csv` for each instance's type, routes, and size.
 
 ## Columns
 

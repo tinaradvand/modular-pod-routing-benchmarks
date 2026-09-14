@@ -6,8 +6,11 @@
 
 - `instance_number`: number of the matching local `Graphs` folder.
 - `instance_file`: CSV file in `instances/`.
-- `scope`: `route` for a single-route instance or `cumulative` for a multi-route instance.
-- `direction`: included route direction or directions.
+- `type`: how routes and directions are grouped:
+  - `d0`: direction 0 of one route.
+  - `d1`: direction 1 of one route.
+  - `cmb`: both directions of one route combined.
+  - `multi`: multiple routes combined cumulatively.
 - `routes`: included bus routes, separated by semicolons.
 - `num_routes`: number of included routes.
 - `num_trips`: number of source trip CSV files.
