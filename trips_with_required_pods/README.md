@@ -4,11 +4,10 @@ This folder contains 14,713 Manhattan bus trips for which passenger counts were 
 
 ## File names
 
-Each filename is the trip's GTFS `trip_id` followed by `.csv`. For example, `MQ_A5-Weekday-003000_SBS14_701.csv` contains the stops for trip `MQ_A5-Weekday-003000_SBS14_701`.
+Each filename is the trip's GTFS `trip_id` followed by `.csv`. For example, `MQ_A5-Weekday-003000_SBS14_701.csv` contains the stops for trip `MQ_A5-Weekday-003000_SBS14_701`. The identifier is not repeated as a column inside the file.
 
 ## Columns
 
-- `trip_id`: GTFS identifier for the scheduled trip.
 - `arrival_time`: scheduled arrival time at the stop.
 - `departure_time`: scheduled departure time from the stop.
 - `stop_id`: GTFS identifier for the stop.
