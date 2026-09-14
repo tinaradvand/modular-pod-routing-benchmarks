@@ -1,19 +1,20 @@
-# Benchmark Graph Instances
+# Graph Instances
 
-These CSV files are the benchmark graph instances created for the modular pod-routing experiments.
+Each CSV combines the trip records stored in the matching numbered folder in the local `Graphs` archive. Solver logs and experimental output files are not included.
 
 ## File names
 
-Each name begins with an instance number. `_d0` and `_d1` contain one direction of one route, `_cmb` combines both directions of one route, and `_multi` combines multiple routes. For example, `001_cmb.csv` is combined-direction instance 001. The corresponding routes and instance sizes are listed in `metadata/instance_summary.csv`.
+`instance_NNN.csv` corresponds directly to `Graphs/NNN/Trips/`. For example, `instance_001.csv` comes from `Graphs/1/Trips/`, and `instance_134.csv` comes from `Graphs/134/Trips/`.
+
+Instances 1–108 are route-level instances arranged in groups of three: direction 0, direction 1, and both directions. Instances 109–134 are cumulative multi-route instances. See `metadata/instance_summary.csv` for the routes and size of each instance.
 
 ## Columns
 
-- `trip_id`: scheduled trip identifier.
-- `route`: bus route name.
-- `direction`: route direction label (`d0` or `d1`).
-- `stop_sequence`: order of the stop within the trip.
-- `arrival_time`: scheduled arrival time.
-- `departure_time`: scheduled departure time.
-- `stop_id`: stop identifier.
-- `estimated_passenger_count`: passenger count assigned or estimated for the trip at the stop.
-- `required_pods`: number of modular pods required at the stop.
+- `trip_id`: scheduled bus-trip identifier.
+- `arrival_time`: scheduled time at the requester or releaser stop.
+- `stop_id`: GTFS stop identifier.
+- `stop_sequence`: position of the stop in the scheduled trip.
+- `Required_Pods`: number of pods assigned to the trip.
+- `pod_id`: pod number within that trip.
+- `label`: `requester` when the trip requires the pod and `releaser` when the pod becomes available.
+- `Node_id`: identifier shared by the requester and releaser records for the same pod movement.
