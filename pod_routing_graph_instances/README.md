@@ -2,6 +2,8 @@
 
 Each CSV contains the trip records used to construct one graph instance for the modular pod-routing experiments. Solver logs and experimental output files are not included.
 
+For the instance-construction methodology and required citation, see [*Hierarchical Pod Routing for Modular Transit Systems*](https://doi.org/10.48550/arXiv.2508.18643) and the repository's [citation instructions](../README.md#citation).
+
 ## File names
 
 `NNN` is the three-digit instance identifier assigned when the instances were created. For example, `instance_001.csv` is instance 1 and `instance_134.csv` is instance 134. Leading zeros keep the files in numerical order.

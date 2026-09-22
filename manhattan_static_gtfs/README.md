@@ -2,6 +2,8 @@
 
 These files describe the scheduled MTA bus service used in the study. IDs connect the files: routes contain trips, trips contain stop times, and stop times reference stops.
 
+For the study methodology and required citation, see [*Hierarchical Pod Routing for Modular Transit Systems*](https://doi.org/10.48550/arXiv.2508.18643) and the repository's [citation instructions](../README.md#citation).
+
 ## Files and columns
 
 ### `agency.txt`

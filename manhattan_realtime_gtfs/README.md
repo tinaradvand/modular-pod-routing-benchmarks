@@ -2,6 +2,8 @@
 
 These CSV files contain the real-time data collected from the MTA Bus Time SIRI VehicleMonitoring API in February 2025. Each API record describes a bus, its assigned trip, its location, the referenced stop, and passenger-count fields when supplied by the feed.
 
+For the collection methodology and required citation, see [*Hierarchical Pod Routing for Modular Transit Systems*](https://doi.org/10.48550/arXiv.2508.18643) and the repository's [citation instructions](../README.md#citation).
+
 ## File names
 
 Files follow `bus_data_YYYY-MM-DD_HH.csv`. For example, `bus_data_2025-02-18_07.csv` is the file for February 18, 2025, hour 07 in New York local time. The files retain the names created during collection.

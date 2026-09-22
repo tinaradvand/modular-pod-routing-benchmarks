@@ -2,6 +2,8 @@
 
 `instance_summary.csv` identifies the source, contents, and size of all 134 graph instances.
 
+For the benchmark methodology and required citation, see [*Hierarchical Pod Routing for Modular Transit Systems*](https://doi.org/10.48550/arXiv.2508.18643) and the repository's [citation instructions](../README.md#citation).
+
 ## Columns
 
 - `instance_number`: numerical identifier assigned to the graph instance.
